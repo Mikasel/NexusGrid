@@ -1,11 +1,40 @@
-**NexusGrid: Strategic Hexagonal Grid Game**
+# NexusGrid - AI-Generated Strategic Path-Building Game
 
-NexusGrid is a web-based 2D strategy game where players compete against an AI opponent to dominate a hexagonal grid. The objective is to claim cells and create the largest connected cluster of your color. 
+A 2D mobile strategy game featuring a hexagonal grid where players strategically place colored energy lines to connect power nodes.
 
-Built with Phaser 3 and TypeScript, the game features:
-- Turn-based gameplay
-- A heuristic-based AI opponent
-- Procedurally generated blocker hexagons for replayability
-- Menu, in-game UI, and game over screens
+## Setup Instructions
 
-Part of a AI Appliactions course project.
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start the development server:
+```bash
+npm start
+```
+
+3. Open your browser and navigate to `http://localhost:8080`
+
+## Project Structure
+
+- `src/index.ts` - Main game file
+- `src/index.html` - HTML template
+- `src/assets/` - Game assets directory
+- `dist/` - Compiled output (generated)
+
+## Development
+
+The game is built using:
+- Phaser 3 for game engine
+- TypeScript for type safety
+- Webpack for bundling
+
+## Features (Planned)
+
+- Hexagonal grid gameplay
+- Energy line placement mechanics
+- Power node connections
+- Procedurally generated levels
+- Clean, neon-inspired visuals
+- Mobile-optimized controls 
