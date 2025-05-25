@@ -8,4 +8,4 @@ Built with Phaser 3 and TypeScript, the game features:
 - Procedurally generated blocker hexagons for replayability
 - Menu, in-game UI, and game over screens
 
-Part of a [Course Name/Student Project].
+Part of a AI Appliactions course porject.
